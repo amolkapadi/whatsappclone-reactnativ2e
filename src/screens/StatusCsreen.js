@@ -1,10 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-export default function StatusScreen() {
+export default function StatusCsreen() {
   return (
     <View>
-      <Text>StatusScreen</Text>
+      <Text>StatusCsreen</Text>
     </View>
   )
 }
