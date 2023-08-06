@@ -15,6 +15,7 @@ const UserCard= ({name, status, profileImage})=>{
   )
 }
 
+
 export default function ChatScreen() {
   return (
     <View>

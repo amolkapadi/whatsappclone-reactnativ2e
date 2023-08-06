@@ -15,14 +15,14 @@ const UserCard= ({name, status, profileImage})=>{
   )
 }
 
-export default function StatusCsreen() {
+export default function StatusCscreen() {
   return (
     <View>
-     <View style={styles.container2}>
+       <View style={styles.container2}>
         <Image style={styles.profileImage}   />
         <View style={styles.details}>
           <Text style={styles.name}>My Status</Text>
-          <Text style={styles.status}>1 hours ago</Text>
+          <Text style={styles.status}>1 Hours ago</Text>
         </View>
     </View>
     <FlatList 
@@ -45,13 +45,13 @@ const styles = StyleSheet.create({
       flexDirection:'row',
       alignItems:'center',
       padding:16,
+    
       borderBottomColor:'#e0e0e0'
     },
     container2:{
       flexDirection:'row',
       alignItems:'center',
       padding:16,
-      borderBottomColor:'#e0e0e0',
       borderBottomWidth:1,
       borderBottomColor:'#e0e0e0'
     },
@@ -60,8 +60,8 @@ const styles = StyleSheet.create({
       height:50,
       borderRadius:25,
       marginRight:16,
-      borderWidth: 3,  // Add border width
-      borderColor: 'green',  // Add border color
+      borderWidth:3,
+      borderColor:'green'
     },
     details:{
       flex:1
