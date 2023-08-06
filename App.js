@@ -1,4 +1,3 @@
-import { View, Text } from 'react-native'
 import React from 'react'
 import TopBar from './src/components/TopBar'
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs'
@@ -22,12 +21,10 @@ export default function App() {
           tabBarIndicatorStyle: { backgroundColor: 'white' },
           tabBarStyle: { backgroundColor: '#128B7E' }
         }}
-      
       >
       <Tab.Screen name="Chats" component={ChatScreen} />
       <Tab.Screen name="Status" component={StatusCsreen} />
       <Tab.Screen name="Calls" component={CallsScreen} />
-
       </Tab.Navigator>
      </NavigationContainer>
     </>

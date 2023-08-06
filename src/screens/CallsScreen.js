@@ -4,7 +4,7 @@ import React from 'react'
 export default function CallsScreen() {
   return (
     <View>
-      <Text>CallsScreen</Text>
+      <Text>Calls Screen 1</Text>
     </View>
   )
 }
