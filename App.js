@@ -11,12 +11,9 @@ const Tab = createMaterialTopTabNavigator();
 
 const App = () => {
   return (
-
     <>
     <NavigationContainer>
       <TopBar />
-
-      
       <Tab.Navigator
         screenOptions={{
           tabBarLabelStyle: { color: 'white' },
@@ -32,5 +29,4 @@ const App = () => {
     </>
   );
 };
-
 export default App;
